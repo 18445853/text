@@ -1,0 +1,50 @@
+<!--create.ejs-->
+<form action="/event/create" method="POST">
+    <div>
+       <div class="form-group">
+         <label>Event Name:</label>
+         <input type="text" class="form-control" name="Event[name]" required>
+       </div>
+       <div class="form-group">
+         <label>Short Description:</label>
+         <input type="text" class="form-control" name="Event[description_short]" required>
+       </div>
+       <div class="form-group">
+         <label>Full Description:</label>
+         <input type="text" class="form-control" name="Event[description_full]" required>
+       </div>
+    </div>
+       <div>
+        <div class="form-group">
+            <label>Image URL:</label>
+            <input type="text" class="form-control" name="Event[URL]" required>
+        </div>
+        <div class="form-group">
+            <span>Organizer:</span>
+            <select>
+                <option>Please select a organizer:</option>
+                <option >Avengers</option>
+                <option >Justice League</option>
+            </select>
+            <input type="text" class="form-control" name="Event[organizer]" required>
+        </div>
+        <div class="form-group">
+            <label>Event Date:</label>
+            <input type="text" class="form-control" name="Event[date]" required>
+        </div>
+        <div class="form-group">
+            <label>Time:</label>
+            <input type="text" class="form-control" name="Event[time]" required>
+        </div>
+        <div class="form-group">
+            <label>Venue</label>
+            <input type="text" class="form-control" name="Event[venue]" required>
+        </div>
+        <div class="form-group">
+            <label>Quota</label>
+            <input type="text" class="form-control" name="Event[quota]" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+</form>
