@@ -25,7 +25,32 @@ module.exports = {
       type: "string"
     },
 
+    URL: {
+      type: "string"
+    },
 
+    organizer: {
+      type: "string"
+    },
+
+    date: {
+      type: "string"
+    },
+
+    time: {
+      type: "string"
+    },
+
+    Venue: {
+      type: "string"
+    },
+
+    quota: {
+      type: "number"
+    },
+    highlighted: {
+      type: "string"
+    },
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
